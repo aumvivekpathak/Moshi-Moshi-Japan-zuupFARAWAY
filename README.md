@@ -44,11 +44,12 @@ RHIE_ML_metrics.csv   — ML model performance metrics from scikit-learn
 ```
 
 Important Context:
-1. Z direction= passage of train
-2. Y direction= the loading direction
-3. X direction=lateral
-The simulation videos are NOT exact demonstrations of what is actually happening, the whole system involves hertzian mechanics and contact patch based physics which isnt free to use in the simulation softwares. The simulation however, closely mimics the effects of a train passing by modelling the pressure variation mathematically. The rail segment under observation is simulated for 5 seconds, corresponding to 3-4 axles passing over it. The thermal analysis isn't very prominent but useful in the overall analysis through thermal stresses.
----
+1. Z direction= passage of train.
+2. Y direction= the loading direction.
+3. X direction=lateral.
+
+The simulation videos are NOT exact demonstrations of what is actually happening, the whole system involves hertzian mechanics and contact patch-based physics, which isn't free to use in the simulation software. The simulation however, closely mimics the effects of a train passing by modelling the pressure variation mathematically. The rail segment under observation is simulated for 5 seconds, corresponding to 3-4 axles passing over it. The thermal analysis isn't very prominent but useful in the overall analysis through thermal stresses.
+
 
 ## Running It
 
