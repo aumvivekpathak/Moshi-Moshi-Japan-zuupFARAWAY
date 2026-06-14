@@ -39,8 +39,8 @@ Dossier.pdf      — Full technical documentation of every formula,
                         constant, dataset, and model used.
 RHIE_ML_metrics.csv   — ML model performance metrics from scikit-learn
                         validation run (1500 samples, 200 trees).
-/screenshots          — Simulation screenshots
-/simulations          — Simulation videos.
+screenshots          — Simulation result screenshots
+simulations          — Simulation videos.
 ```
 
 Important Context:
@@ -50,16 +50,6 @@ Important Context:
 
 The simulation videos are NOT exact demonstrations of what is actually happening, the whole system involves hertzian mechanics and contact patch-based physics, which isn't free to use in the simulation software. The simulation however, closely mimics the effects of a train passing by modelling the pressure variation mathematically. The rail segment under observation is simulated for 5 seconds, corresponding to 3-4 axles passing over it. The thermal analysis isn't very prominent but useful in the overall analysis through thermal stresses.
 
-
-## Running It
-
-Download `RHIE_v3.html`. Open it in a browser. That's it.
-
-No server, no install, no internet required after the file loads. React, ReactDOM and Recharts are bundled directly into the file. Everything — physics, ML training, assessment generation — runs locally in the browser.
-
-Tested on Chrome, Firefox, Edge.
-
----
 
 ## Dashboard Tabs
 
@@ -97,7 +87,7 @@ Training data is synthetic, generated from the same physics equations used in th
 
 ## Technical Dossier
 
-`RHIE_dossier.md` covers everything in detail — every physics formula with derivation and worked examples, all 20 climate zones with monthly data tables, the complete health score formula with rationale for each component, ML architecture and all metrics explained in plain language, all 48 repair methods, and the assessment engine logic. If you want to understand why a specific number comes out of the dashboard, it's in there.
+`Dossier.pdf` covers everything in detail — every physics formula with derivation and worked examples, all 20 climate zones with monthly data tables, the complete health score formula with rationale for each component, ML architecture and all metrics explained in plain language, all 48 repair methods, and the assessment engine logic. If you want to understand why a specific number comes out of the dashboard, it's in there.
 
 ---
 
